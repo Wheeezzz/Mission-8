@@ -1,0 +1,104 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  color: white;
+}
+
+h1 {
+  margin: 0.1em;
+  font-size: 1.5em;
+}
+
+h2 {
+  margin: 0.3em;
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+
+p {
+  margin: 0.3em;
+}
+
+.input-block {
+  padding: 0.5rem;
+  display: block;
+  place-items: center;
+  width: 100%;
+}
+
+.usernameColumn {
+  width: 19em;
+  height: 2em;
+  border-radius: 8px;
+  opacity: 0.5;
+  color: black;
+}
+
+.passwordColumn {
+  width: 19em;
+  height: 2em;
+  border-radius: 8px;
+  opacity: 0.5;
+  color: black;
+}
+
+button {
+  text-align: center;
+  line-height: 1em;
+  width: 100%;
+  height: 2.5em;
+  border-radius: 8px;
+  border: 1.5px solid white;
+  background-color: rgb(55, 55, 55);
+}
+
+.card {
+  padding: 1rem;
+  display: block;
+  place-items: center;
+  border-radius: 2%;
+  opacity: 0.8;
+  width: 20em;
+  background-color: rgb(55, 55, 55);
+  z-index: 1;
+}
+
+.logo {
+  height: 2em;
+  padding: 0.3em;
+  margin: 0.5em;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.read-the-docs {
+  color: #888;
+}
