@@ -263,7 +263,7 @@ ul li {
 .footer {
   display: flex;
   list-style: none;
-  transform: translate(0%, 15%);
+  transform: translate(0%, 20%);
 }
 
 .footer img {
@@ -412,6 +412,7 @@ button {
     white-space: nowrap;
     max-width: 25.7em;
     width: calc(100%);
+    transform: translate(0%, 25%);
   }
 
   h1 {
